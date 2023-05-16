@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload or not. And hello world from CI/CD and docker!
+          Edit <code>src/App.js</code> and save to reload or not. And hello world from CI/CD and docker! Dima loh!!! 
         </p>
         <a
           className="App-link"
