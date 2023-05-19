@@ -3,11 +3,12 @@ import './App.css'
 import RicoCurrencyGrid from './Components/RicoCurrencyGrid/RicoCurrencyGrid'
 import 'react-toastify/dist/ReactToastify.min.css';
 import 'react-loading-skeleton/dist/skeleton.css'
+import Burger from './Images/burger.svg'
 
 function App (): React.JSX.Element {
   return (
     <div>
-      <nav></nav>
+      <nav><img src={Burger} alt='' className='burger'></img></nav>
       {RicoCurrencyGrid({})}
       <ToastContainer
         position="top-right"
