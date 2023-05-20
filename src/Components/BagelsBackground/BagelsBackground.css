@@ -1,0 +1,21 @@
+
+img.bagel {
+    height: 75px;
+    width: 75px;
+    z-index: -10;
+    position: absolute;
+    bottom: 0;
+    left: var(--x-position);
+    animation: infinite-motion var(--duration) infinite linear;
+    opacity: 0.3;
+}
+
+@keyframes infinite-motion {
+    from {
+        transform: translateY(10vh);
+    }
+
+    to {
+       transform: translateY(-100vh);
+    }
+}

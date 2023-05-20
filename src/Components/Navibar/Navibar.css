@@ -1,0 +1,43 @@
+nav {
+    height: 10vh;
+    border-bottom: solid white;
+    display: flex;
+}
+
+.naviElement {
+    font-size: 24pt;
+    margin: 2vw;
+    color: white;
+    text-decoration: none;
+}
+
+div.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+div.bar-elements-line {
+  height: 35pt;
+  width: 3px;
+  background-color: white;
+  border-radius: 15%;
+}
+
+img.burger {
+    max-height: 60px;
+    max-width: 60px;
+    animation: rotation 7s infinite linear;
+    margin: 2vh  2vw 2vh 2vw;
+    object-fit: scale-down;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}

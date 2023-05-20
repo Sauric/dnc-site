@@ -1,0 +1,44 @@
+th, td {
+    width: 70px;
+    height: 2em;
+    text-align: center;
+}
+
+table {
+    border: 10px solid white;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgb(163, 160, 160);
+    transition: 1s;
+    transform: translateX(-5px) translateY(-5px);
+}
+
+table:hover {
+    box-shadow: none;
+    transform: translateX(0px) translateY(0px);
+}
+
+img.currency-logo {
+    width: 35px;
+    height: 35px;
+}
+
+p.comission-disclamer {
+    font-size: 10pt;
+}
+
+div.accounting-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.exchange-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+div h2.exchange-table-name {
+    margin-bottom: 2vh;
+}
