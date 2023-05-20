@@ -29,6 +29,7 @@ p.comission-disclamer {
 div.accounting-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.exchange-container {
