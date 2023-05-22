@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navibar.css';
 import { Link } from 'react-router-dom';
-import Burger from '../../Images/burger.svg';
+import Burger from '../../Images/orange-bagel.svg';
 
 const Navibar: React.FC = () => {
   return (

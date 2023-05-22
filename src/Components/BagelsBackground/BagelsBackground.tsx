@@ -8,14 +8,14 @@ const BagelsBackground: React.FC = () => {
     
     return (
         <div>
-            {Array.from(Array(40).keys()).filter((i) => i % 2 == 0).map((i: number) => {
+            {Array.from(Array(60).keys()).filter((i) => i % 2 == 0).map((i: number) => {
                 const purpleDuration = Math.random() * (max - min) + min;
                 const orangeDuration = Math.random() * (max - min) + min;
-
-                const purple = {"--x-position": (i * 50) + 'px', "--duration": purpleDuration + "s"} as React.CSSProperties;
-                const orange = {"--x-position": ((i + 1) * 50) + 'px', "--duration": orangeDuration+ "s"} as React.CSSProperties;
+                const density = 30;
+                const purple = {"--x-position": (i * density) + 'px', "--duration": purpleDuration + "s"} as React.CSSProperties;
+                const orange = {"--x-position": ((i + 1) * density) + 'px', "--duration": orangeDuration+ "s"} as React.CSSProperties;
                 return (
-                    <div>
+                    <div key={i}>
                         <img src={PurpleBagel} alt='' className='bagel purple' style={purple}/>
                         <img src={OrangeBagel} alt='' className='bagel orange' style={orange}/>
                     </div>

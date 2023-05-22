@@ -4,12 +4,18 @@ th, td {
     text-align: center;
 }
 
+th.logo-cell, td.logo-cell {
+    width: 40px;
+}
+
 table {
-    border: 10px solid white;
+    border: 0px solid white;
     border-radius: 25px;
-    box-shadow: 5px 5px rgb(163, 160, 160);
-    transition: 1s;
-    transform: translateX(-5px) translateY(-5px);
+    box-shadow: 2px 2px rgb(163, 160, 160);
+    transition: 0.2s;
+    transform: translateX(-2px) translateY(-2px);
+    background-color: #ffffff16;
+    backdrop-filter: blur(5px);
 }
 
 table:hover {

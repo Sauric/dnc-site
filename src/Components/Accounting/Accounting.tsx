@@ -5,7 +5,6 @@ import KoronaCurrencyGrid from "./KoronaCurrencyGrid/KoronaCurrencyGrid";
 import CredoCurrencyGrid from "./CredoCurrencyGrid/CredoCurrencyGrid";
 
 const Accounting: React.FC = () => {
-
     return (
         <div className='accounting-container'>
             <RicoCurrencyGrid />
@@ -15,4 +14,4 @@ const Accounting: React.FC = () => {
     )
 }
 
-export default Accounting;
+export default Accounting;  
