@@ -8,7 +8,7 @@ th.logo-cell, td.logo-cell {
     width: 40px;
 }
 
-table {
+table.exchange-table {
     border: 0px solid white;
     border-radius: 25px;
     box-shadow: 2px 2px rgb(163, 160, 160);

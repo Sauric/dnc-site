@@ -7,6 +7,7 @@ img.bagel {
     bottom: 0;
     left: var(--x-position);
     animation: infinite-motion var(--duration) infinite linear;
+    animation-delay: -60s;
     opacity: 0.3;
 }
 

@@ -23,7 +23,7 @@ const ExchangeGrid: React.FC<ExchangeGridProps> = (props: ExchangeGridProps) => 
         duration={1}
       >
         <h2 className='exchange-table-name'>{props.header}</h2>
-        <table>
+        <table className='exchange-table'>
           <thead>
             <tr>
               <th className='logo-cell'>{props.columns[0]}</th>
