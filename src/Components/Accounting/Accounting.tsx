@@ -11,7 +11,7 @@ const Accounting: React.FC = () => {
             <RicoCurrencyGrid />
             <KoronaCurrencyGrid />
             <CredoCurrencyGrid />
-            <GeorgiaCentralBankGrid />
+            {/* <GeorgiaCentralBankGrid /> */}
         </div>
     )
 }
